@@ -214,6 +214,127 @@
             "The set will be cleared"
         ],
         "correct_answer": "An error will be raised"
+    },
+    {
+        "_id": "19",
+        "module_id": "3",
+        "question": "What does NoSQL stand for?",
+        "options": [
+            "Not Only SQL",
+            "No Structured Query Language",
+            "Non-Standard Query Language",
+            "New SQL"
+        ],
+        "correct_answer": "Not Only SQL"
+    },
+    {
+        "_id": "20",
+        "module_id": "3",
+        "question": "What is the primary advantage of horizontal scaling in NoSQL databases?",
+        "options": [
+            "It increases the power of a single server",
+            "It allows adding more servers to handle more data",
+            "It reduces the need for data replication",
+            "It simplifies database queries"
+        ],
+        "correct_answer": "It allows adding more servers to handle more data"
+    },
+    {
+        "_id": "21",
+        "module_id": "3",
+        "question": "Which of the following is a key characteristic of NoSQL databases?",
+        "options": [
+            "Fixed Schema",
+            "Vertical Scaling",
+            "Schema Flexibility",
+            "Single Server Storage"
+        ],
+        "correct_answer": "Schema Flexibility"
+    },
+    {
+        "_id": "22",
+        "module_id": "3",
+        "question": "Which type of NoSQL database is best suited for storing complex, hierarchical data?",
+        "options": [
+            "Key-Value Databases",
+            "Document Databases",
+            "Columnar Databases",
+            "Graph Databases"
+        ],
+        "correct_answer": "Document Databases"
+    },
+    {
+        "_id": "23",
+        "module_id": "3",
+        "question": "In a key-value database, data is stored as:",
+        "options": [
+            "Rows and Columns",
+            "Nodes and Edges",
+            "Documents and Collections",
+            "Key-Value Pairs"
+        ],
+        "correct_answer": "Key-Value Pairs"
+    },
+    {
+        "_id": "24",
+        "module_id": "3",
+        "question": "Which NoSQL database type is most suitable for applications requiring efficient querying of large datasets?",
+        "options": [
+            "Document Databases",
+            "Key-Value Databases",
+            "Columnar Databases",
+            "Graph Databases"
+        ],
+        "correct_answer": "Columnar Databases"
+    },
+    {
+        "_id": "25",
+        "module_id": "3",
+        "question": "What is the primary use case for graph databases?",
+        "options": [
+            "Caching and session management",
+            "Storing user profiles",
+            "Modeling complex relationships",
+            "Real-time data processing"
+        ],
+        "correct_answer": "Modeling complex relationships"
+    },
+    {
+        "_id": "26",
+        "module_id": "3",
+        "question": "In MongoDB, what is a collection analogous to?",
+        "options": [
+            "A row in a table",
+            "A column in a table",
+            "A folder containing files",
+            "A key-value pair"
+        ],
+        "correct_answer": "A folder containing files"
+    },
+    {
+        "_id": "27",
+        "module_id": "3",
+        "question": "Which of the following is a basic CRUD operation in MongoDB?",
+        "options": [
+            "Compile",
+            "Retrieve",
+            "Update",
+            "Deploy"
+        ],
+        "correct_answer": "Update"
+    },
+    {
+        "_id": "28",
+        "module_id": "3",
+        "question": "Why are NoSQL databases particularly well-suited for Big Data applications?",
+        "options": [
+            "They require less maintenance",
+            "They offer vertical scalability",
+            "They provide high availability and horizontal scalability",
+            "They use a fixed schema"
+        ],
+        "correct_answer": "They provide high availability and horizontal scalability"
     }
 ]
+
 
