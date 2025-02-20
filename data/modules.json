@@ -1,0 +1,15 @@
+
+[
+    {
+        "_id": "1",
+        "name": "Math"
+    },
+    {
+        "_id": "2",
+        "name": "Science"
+    },
+    {
+        "_id": "3",
+        "name": "History"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "_id": "1",
+        "module_id": "1",
+        "question": "What is 2 + 2?",
+        "options": ["3", "4", "5"],
+        "correct_answer": "4"
+    },
+    {
+        "_id": "2",
+        "module_id": "1",
+        "question": "What is 3 * 3?",
+        "options": ["6", "9", "12"],
+        "correct_answer": "9"
+    },
+    {
+        "_id": "3",
+        "module_id": "1",
+        "question": "What is the square root of 16?",
+        "options": ["2", "4", "8"],
+        "correct_answer": "4"
+    },
+    {
+        "_id": "4",
+        "module_id": "1",
+        "question": "What is 15 divided by 3?",
+        "options": ["3", "5", "7"],
+        "correct_answer": "5"
+    },
+    {
+        "_id": "5",
+        "module_id": "1",
+        "question": "What is the value of pi (π) to two decimal places?",
+        "options": ["3.14", "3.15", "3.16"],
+        "correct_answer": "3.14"
+    },
+    {
+        "_id": "6",
+        "module_id": "1",
+        "question": "What is the result of 2^3?",
+        "options": ["6", "8", "10"],
+        "correct_answer": "8"
+    },
+    {
+        "_id": "7",
+        "module_id": "1",
+        "question": "What is the derivative of x^2?",
+        "options": ["x", "2x", "x^2"],
+        "correct_answer": "2x"
+    },
+    {
+        "_id": "8",
+        "module_id": "2",
+        "question": "What planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter"],
+        "correct_answer": "Mars"
+    },
+    {
+        "_id": "9",
+        "module_id": "2",
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "O2", "CO2"],
+        "correct_answer": "H2O"
+    },
+    {
+        "_id": "10",
+        "module_id": "2",
+        "question": "What is the speed of light in vacuum?",
+        "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s"],
+        "correct_answer": "300,000 km/s"
+    },
+    {
+        "_id": "11",
+        "module_id": "2",
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Nucleus", "Mitochondria", "Ribosome"],
+        "correct_answer": "Mitochondria"
+    },
+    {
+        "_id": "12",
+        "module_id": "2",
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Pb"],
+        "correct_answer": "Au"
+    },
+    {
+        "_id": "13",
+        "module_id": "3",
+        "question": "Who was the first President of the United States?",
+        "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson"],
+        "correct_answer": "George Washington"
+    },
+    {
+        "_id": "14",
+        "module_id": "3",
+        "question": "In what year did World War II end?",
+        "options": ["1945", "1939", "1918"],
+        "correct_answer": "1945"
+    },
+    {
+        "_id": "15",
+        "module_id": "3",
+        "question": "Who wrote the Declaration of Independence?",
+        "options": ["Thomas Jefferson", "George Washington", "John Adams"],
+        "correct_answer": "Thomas Jefferson"
+    },
+    {
+        "_id": "16",
+        "module_id": "3",
+        "question": "What is the capital of France?",
+        "options": ["London", "Paris", "Berlin"],
+        "correct_answer": "Paris"
+    }
+]

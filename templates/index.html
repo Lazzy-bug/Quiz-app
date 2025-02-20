@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the<br>Quiz Application</h1>
+    <form action="{{ url_for('register') }}" method="post">
+        <div class="form-control">
+            <input type="text" id="name" name="name" required>
+            <label>
+                <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+            </label>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+    <footer>
+        <p>&copy; Lazzy-bug</p>
+    </footer>
+</body>
+</html>

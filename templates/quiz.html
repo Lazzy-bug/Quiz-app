@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Quiz</h1>
+    <form id="quiz-form" action="{{ url_for('submit_quiz', user_id=user_id, module_id=module_id) }}" method="post">
+        {% for question in questions %}
+            <div class="radio-input-wrapper question" id="question-{{ loop.index0 }}" {% if not loop.first %}style="display:none;"{% endif %}>
+                <p id="questions">{{ question['question'] }}</p>
+                {% for option in question['options'] %}
+                    <label class="label">
+                        <input value="{{ option }}" name="{{ question['_id'] }}" id="{{ question['_id'] }}" class="radio-input" type="radio">
+                        <div class="radio-design"></div>
+                        <div class="label-text">{{ option }}</div>
+                    </label>
+                {% endfor %}
+                <button type="button" class="next-button" onclick="showNextQuestion({{ loop.index0 }})">Next</button>
+            </div>
+        {% endfor %}
+        <button type="submit" id="submit-button" style="display:none;">Submit Quiz</button>
+    </form>
+    <footer>
+        <p>&copy; Lazzy-bug</p>
+    </footer>
+    <script>
+        function showNextQuestion(currentIndex) {
+            document.getElementById('question-' + currentIndex).style.display = 'none';
+            var nextIndex = currentIndex + 1;
+            var nextQuestion = document.getElementById('question-' + nextIndex);
+            if (nextQuestion) {
+                nextQuestion.style.display = 'block';
+            } else {
+                document.getElementById('submit-button').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
