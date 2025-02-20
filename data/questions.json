@@ -2,113 +2,218 @@
     {
         "_id": "1",
         "module_id": "1",
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5"],
-        "correct_answer": "4"
+        "question": "What is a database?",
+        "options": [
+            "A collection of unrelated data",
+            "Data collection organized for easy access, management, and update",
+            "A type of spreadsheet software",
+            "A programming language"
+        ],
+        "correct_answer": "Data collection organized for easy access, management, and update"
     },
     {
         "_id": "2",
         "module_id": "1",
-        "question": "What is 3 * 3?",
-        "options": ["6", "9", "12"],
-        "correct_answer": "9"
+        "question": "What is a primary key in an SQL database?",
+        "options": [
+            "A field that links to another table",
+            "A unique identifier for each record in a table",
+            "A collection of documents",
+            "A type of query"
+        ],
+        "correct_answer": "A unique identifier for each record in a table"
     },
     {
         "_id": "3",
         "module_id": "1",
-        "question": "What is the square root of 16?",
-        "options": ["2", "4", "8"],
-        "correct_answer": "4"
+        "question": "Which of the following is an example of a basic form of a database?",
+        "options": [
+            "Microsoft Word",
+            "Google Sheets",
+            "Adobe Photoshop",
+            "PowerPoint"
+        ],
+        "correct_answer": "Google Sheets"
     },
     {
         "_id": "4",
         "module_id": "1",
-        "question": "What is 15 divided by 3?",
-        "options": ["3", "5", "7"],
-        "correct_answer": "5"
+        "question": "What does SQL stand for?",
+        "options": [
+            "Simple Query Language",
+            "Structured Query Language",
+            "Systematic Query Language",
+            "Sequential Query Language"
+        ],
+        "correct_answer": "Structured Query Language"
     },
     {
         "_id": "5",
         "module_id": "1",
-        "question": "What is the value of pi (π) to two decimal places?",
-        "options": ["3.14", "3.15", "3.16"],
-        "correct_answer": "3.14"
+        "question": "What is an example of a document-based NoSQL database?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Oracle"
+        ],
+        "correct_answer": "MongoDB"
     },
     {
         "_id": "6",
         "module_id": "1",
-        "question": "What is the result of 2^3?",
-        "options": ["6", "8", "10"],
-        "correct_answer": "8"
+        "question": "When might you choose a NoSQL database over an SQL database?",
+        "options": [
+            "When data is highly structured",
+            "When strong consistency is required",
+            "When data is unstructured or semi-structured",
+            "When complex queries are needed"
+        ],
+        "correct_answer": "When data is unstructured or semi-structured"
     },
     {
         "_id": "7",
         "module_id": "1",
-        "question": "What is the derivative of x^2?",
-        "options": ["x", "2x", "x^2"],
-        "correct_answer": "2x"
+        "question": "Which of the following is a strength of SQL databases?",
+        "options": [
+            "Flexibility in data structure",
+            "Horizontal scalability",
+            "ACID compliance",
+            "High performance for real-time applications"
+        ],
+        "correct_answer": "ACID compliance"
     },
     {
         "_id": "8",
-        "module_id": "2",
-        "question": "What planet is known as the Red Planet?",
-        "options": ["Earth", "Mars", "Jupiter"],
-        "correct_answer": "Mars"
+        "module_id": "1",
+        "question": "In an SQL database, what is a table?",
+        "options": [
+            "A collection of unrelated data",
+            "A collection of related data organized in rows and columns",
+            "A single piece of data",
+            "A type of programming function"
+        ],
+        "correct_answer": "A collection of related data organized in rows and columns"
     },
     {
         "_id": "9",
-        "module_id": "2",
-        "question": "What is the chemical symbol for water?",
-        "options": ["H2O", "O2", "CO2"],
-        "correct_answer": "H2O"
+        "module_id": "1",
+        "question": "Which analogy is used to describe SQL databases in the content?",
+        "options": [
+            "A traditional Indian bazaar",
+            "The Indian Railway System",
+            "A digital library",
+            "A shopping mall"
+        ],
+        "correct_answer": "The Indian Railway System"
     },
     {
         "_id": "10",
-        "module_id": "2",
-        "question": "What is the speed of light in vacuum?",
-        "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s"],
-        "correct_answer": "300,000 km/s"
+        "module_id": "1",
+        "question": "Which of the following is a characteristic of NoSQL databases?",
+        "options": [
+            "They use tables, rows, and columns",
+            "They are non-relational and store data in various formats",
+            "They require a strict predefined structure",
+            "They cannot handle large amounts of data"
+        ],
+        "correct_answer": "They are non-relational and store data in various formats"
     },
     {
         "_id": "11",
         "module_id": "2",
-        "question": "What is the powerhouse of the cell?",
-        "options": ["Nucleus", "Mitochondria", "Ribosome"],
-        "correct_answer": "Mitochondria"
+        "question": "Which of the following operations can be performed on a dictionary in Python?",
+        "options": [
+            "Accessing elements by index",
+            "Adding new key-value pairs",
+            "Ensuring elements are ordered",
+            "Allowing duplicate keys"
+        ],
+        "correct_answer": "Adding new key-value pairs"
     },
     {
         "_id": "12",
         "module_id": "2",
-        "question": "What is the chemical symbol for gold?",
-        "options": ["Au", "Ag", "Pb"],
-        "correct_answer": "Au"
+        "question": "What will be the output of the following code snippet? my_set = {1, 2, 3, 3, 'apple'} print(my_set)",
+        "options": [
+            "{1, 2, 3, 3, 'apple'}",
+            "{1, 2, 3, 'apple'}",
+            "{3, 2, 1, 'apple'}",
+            "{'apple', 1, 2, 3, 3}"
+        ],
+        "correct_answer": "{1, 2, 3, 'apple'}"
     },
     {
         "_id": "13",
-        "module_id": "3",
-        "question": "Who was the first President of the United States?",
-        "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson"],
-        "correct_answer": "George Washington"
+        "module_id": "2",
+        "question": "Which data structure would you use to store a collection of unique items in Python?",
+        "options": [
+            "List",
+            "Tuple",
+            "Dictionary",
+            "Set"
+        ],
+        "correct_answer": "Set"
     },
     {
         "_id": "14",
-        "module_id": "3",
-        "question": "In what year did World War II end?",
-        "options": ["1945", "1939", "1918"],
-        "correct_answer": "1945"
+        "module_id": "2",
+        "question": "What is the output of the following code? my_tuple = (1, 2, 3, 'apple') print(my_tuple[2])",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "'apple'"
+        ],
+        "correct_answer": "3"
     },
     {
         "_id": "15",
-        "module_id": "3",
-        "question": "Who wrote the Declaration of Independence?",
-        "options": ["Thomas Jefferson", "George Washington", "John Adams"],
-        "correct_answer": "Thomas Jefferson"
+        "module_id": "2",
+        "question": "Which of the following statements is true about dictionaries in Python?",
+        "options": [
+            "They are ordered collections",
+            "Keys can be duplicated",
+            "Values can be duplicated",
+            "They are immutable"
+        ],
+        "correct_answer": "Values can be duplicated"
     },
     {
         "_id": "16",
-        "module_id": "3",
-        "question": "What is the capital of France?",
-        "options": ["London", "Paris", "Berlin"],
-        "correct_answer": "Paris"
+        "module_id": "2",
+        "question": "What is the result of the following operation? my_list = [1, 2, 3] my_list.append(4) print(my_list)",
+        "options": [
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]",
+            "[4, 1, 2, 3]",
+            "[1, 2, 3, 3, 4]"
+        ],
+        "correct_answer": "[1, 2, 3, 4]"
+    },
+    {
+        "_id": "17",
+        "module_id": "2",
+        "question": "Which analogy best describes a tuple in Python?",
+        "options": [
+            "A thali (plate) with various food items",
+            "A train reservation ticket",
+            "A telephone directory",
+            "A group of friends"
+        ],
+        "correct_answer": "A train reservation ticket"
+    },
+    {
+        "_id": "18",
+        "module_id": "2",
+        "question": "What will happen if you try to remove an element that does not exist in a set using the remove() method?",
+        "options": [
+            "The element will be ignored",
+            "An error will be raised",
+            "The set will remain unchanged",
+            "The set will be cleared"
+        ],
+        "correct_answer": "An error will be raised"
     }
 ]
+
